@@ -14,10 +14,12 @@ fi
 
 /usr/bin/apt update
 /usr/bin/apt -y install \
+  containerd \
   docker.io \
   python3-pytest \
   python3-docker \
   openjdk-11-jdk \
+  python-apt \
   lcov
 
 
