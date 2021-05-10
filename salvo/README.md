@@ -135,3 +135,15 @@ bazel test //...
 ## Dependencies
 
 The `install_deps.sh` script can be used to install any dependencies required by Salvo.
+
+
+## DCO: Sign your work
+
+This repo ships commit hooks that allow you to auto-generate the DCO signoff line if it doesn't exist when you run git commit. Simply navigate to the envoy-perf project root and run:
+
+```
+./support/bootstrap
+```
+
+From here, simply commit as normal, and you will see the signoff at the bottom of each commit. For more info refer [DCO: Sign your work](https://github.com/envoyproxy/envoy/blob/main/CONTRIBUTING.md#dco-sign-your-work).
+
